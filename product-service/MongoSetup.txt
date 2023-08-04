@@ -1,0 +1,21 @@
+Setup Mongo DB and MongoClient in Mac using docker
+1.	docker pull mongo
+2.	Run the MongoDB Container: After pulling the MongoDB image, you can create and run a MongoDB container using the following command:
+a.	docker run -d -p 27017:27017 --name mongodb mongo
+b.	docker run -d -p 27017:27017 --name mongodb mongo 
+i.	Explanation of the command:
+ii.	-d: Run the container in detached mode (in the background).
+iii.	-p 27017:27017: Map port 27017 of the host (your Mac) to port 27017 of the container (MongoDB default port).
+iv.	--name mongodb: Assign the name "mongodb" to the running container. You can use this name to manage the container later.
+v.	mongo: The name of the MongoDB image you want to use.
+
+3.	Verify the MongoDB Container: To check if the MongoDB container is running, use the following command:
+a.	bashCopy code:
+i.	docker ps 
+b.	You should see the "mongodb" container listed in the output.
+4.	Access MongoDB: To access the MongoDB shell within the container, use the following command:
+a.	bashCopy code
+i.	docker exec -it mongodb mongo 
+5.	Now, you have successfully set up MongoDB on your Mac using Docker. You can interact with the MongoDB instance through the MongoDB shell or connect to it from applications using the MongoDB connection string mongodb://localhost:27017 or mongodb://host_ip:27017 (where host_ip is the IP address of your Mac).
+6.	Remember that data stored within the MongoDB container is ephemeral and will be lost when the container is stopped or removed. If you want to persist data between container restarts, you can mount a volume to the container or use Docker Compose to manage your MongoDB container and its data more effectively.
+
