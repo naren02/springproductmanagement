@@ -1,0 +1,6 @@
+/Users/narensrinivas/spring-boot-microservices/inventory-service/src/main/java/com/programmingtechie/inventoryservice/repository/InventoryRepository.java
+/Users/narensrinivas/spring-boot-microservices/inventory-service/src/main/java/com/programmingtechie/inventoryservice/InventoryServiceApplication.java
+/Users/narensrinivas/spring-boot-microservices/inventory-service/src/main/java/com/programmingtechie/inventoryservice/controller/InventoryController.java
+/Users/narensrinivas/spring-boot-microservices/inventory-service/src/main/java/com/programmingtechie/inventoryservice/dto/InventoryResponse.java
+/Users/narensrinivas/spring-boot-microservices/inventory-service/src/main/java/com/programmingtechie/inventoryservice/service/InventoryService.java
+/Users/narensrinivas/spring-boot-microservices/inventory-service/src/main/java/com/programmingtechie/inventoryservice/model/Inventory.java

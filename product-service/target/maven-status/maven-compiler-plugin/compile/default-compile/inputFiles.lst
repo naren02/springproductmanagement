@@ -1,0 +1,7 @@
+/Users/narensrinivas/spring-boot-microservices/product-service/src/main/java/com/programmingtechie/productservice/ProductServiceApplication.java
+/Users/narensrinivas/spring-boot-microservices/product-service/src/main/java/com/programmingtechie/productservice/service/ProductService.java
+/Users/narensrinivas/spring-boot-microservices/product-service/src/main/java/com/programmingtechie/productservice/dto/ProductResponse.java
+/Users/narensrinivas/spring-boot-microservices/product-service/src/main/java/com/programmingtechie/productservice/model/Product.java
+/Users/narensrinivas/spring-boot-microservices/product-service/src/main/java/com/programmingtechie/productservice/repository/ProductRepository.java
+/Users/narensrinivas/spring-boot-microservices/product-service/src/main/java/com/programmingtechie/productservice/controller/ProductController.java
+/Users/narensrinivas/spring-boot-microservices/product-service/src/main/java/com/programmingtechie/productservice/dto/ProductRequest.java
